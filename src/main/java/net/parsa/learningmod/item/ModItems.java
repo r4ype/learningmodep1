@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.parsa.learningmod.LearningMod;
+import net.parsa.learningmod.block.ModBlocks;
 
 public class ModItems {
 
@@ -18,6 +19,7 @@ public class ModItems {
     private static void addItemsToIngGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(ModBlocks.RUBY_BLOCK);
     }
 
     private static Item registerItem(String name, Item item){
